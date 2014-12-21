@@ -20,7 +20,7 @@
 	font-size: 16px;
 }
 
-.shoppingListTitle span {
+.shoppingListTitle span.shopping-cart-name {
 	width:120px;
 	float:left;
 	left:-25px;			
@@ -28,7 +28,7 @@
 	height: 110;
 }
 
-.shoppingListTitle img {
+.shoppingListTitle span.shopping-cart-icon {
 	float:inherit;
 	margin-top: 115px;
 }

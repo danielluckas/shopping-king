@@ -23,18 +23,30 @@ a {
 	display:block;
 	float:left;
 	width:50px;
+	color: #FFFFFF;
 	height:50px;
 	text-align:center;
 	vertical-align:middle;
+	line-height: 50px;
+}
+
+#leftMenu i{
+	line-height:inherit;
 }
 
 #userMenu{
 	float:right;
 }
 
-#userMenu img{
+#user-icon {
 	float:right;
+	color: #FFFFFF;
+	line-height: 50px;
+	padding-left:5px;
+	padding-right: 5px;
 }
+
+
 
 #userInformation{
 	display:none;
@@ -124,6 +136,12 @@ a {
 	display:block;
 	bottom:0px;
 }
+
+#add-cart-icon{
+	float:right;
+	color: #35404f;
+}
+
 .listHeader{
 	display:block;
 	width:100%;
@@ -178,4 +196,8 @@ a {
 	float:left;
 	padding-left: 5px;
 	padding-top: 3px;
+}
+
+.shopping-cart-icon{
+	color:#FFFFFF;
 }

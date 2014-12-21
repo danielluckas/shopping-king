@@ -9,11 +9,11 @@
 }
 
 
-.shoppingListTitle img{
-	margin-top: 13px;
+.shoppingListTitle span.shopping-cart-icon{
+	line-height:50px;
 }
 
-.shoppingListTitle span {
+.shoppingListTitle span.shopping-cart-name {
 	line-height:50px;
 	margin-left: 5px;
 }
