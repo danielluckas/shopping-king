@@ -1,0 +1,52 @@
+/* CSS Document */
+
+#userInformation{
+	display:block;
+}
+	
+	
+.shoppingList , .archivedShoppingList{
+	float:left;
+	width:150px;
+	height:150px;
+	margin: 10px;
+}
+
+
+.shoppingListTitle{
+	width: 148px;
+	height: 110px;
+	padding: 5px;
+	font-size: 16px;
+}
+
+.shoppingListTitle span {
+	width:120px;
+	float:left;
+	left:-25px;			
+	position: relative;
+	height: 110;
+}
+
+.shoppingListTitle img {
+	float:inherit;
+	margin-top: 115px;
+}
+
+.counterBadge{
+	font-size: 12px;
+	padding: 3px 5px 3px 5px;
+	margin-right: 10px;
+
+}
+
+.listHeader{
+	float:left;
+	height: 50px;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+
+.listHeaderTitle{
+	padding-left: 15px;
+}

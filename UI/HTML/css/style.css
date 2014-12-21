@@ -1,0 +1,181 @@
+/* CSS Document */
+
+body{
+	padding:0px;
+	margin: 0px;
+	font-family: Helvetica;
+	font-size: 16px;
+	color:#35404f;
+}
+
+a {
+	text-decoration:none;
+	color: #35404f;
+}
+#headerBar{
+	display:block;
+	width: 100%;
+	height:50px;
+	background-color:#35404f;
+}
+
+#leftMenu{
+	display:block;
+	float:left;
+	width:50px;
+	height:50px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#userMenu{
+	float:right;
+}
+
+#userMenu img{
+	float:right;
+}
+
+#userInformation{
+	display:none;
+	color: #FFFFFF;
+	float:right;
+	line-height: 50px;
+}
+
+#headerLogo{
+	display:block;
+	position:absolute;
+	float:left;
+	height:50px;
+	width:100%;
+	text-align:center;
+}
+
+#headerLogo img{
+	margin-top:2px;
+	
+}
+
+#contentArea{
+	display:block;
+	float:left;
+	width:100%;
+}
+
+.shoppingList , .archivedShoppingList{
+	display:block;
+	vertical-align: middle;
+    text-align: center;
+	background:#4aaaa5;
+}
+
+.shoppingList:hover, .archivedShoppingList:hover{
+	background:#7accc8;
+}
+
+.shoppingListTitle{
+	float:left;
+	margin-left:10px;
+	
+}
+
+.shoppingListTitle img{
+	float:left;
+}
+
+.shoppingListTitle span {
+	float:left;
+	vertical-align:middle;
+	text-align:left;
+}
+
+#shoppingLists, #archivLists{
+	clear:both;
+	float:left;
+	width: 100%;
+}
+
+
+.counterBadge{
+	float:right;
+	background-color:#35404f;
+	color:#FFFFFF;
+	border-radius: 20px;
+	border: 1px solid #FFFFFF;
+
+}
+
+.greenBadge{
+	background-color:#a3d39c;
+	color: #FFFFFF;
+	border: 1px solid #35404f;
+}
+
+.redBadge{
+	background-color:#e45f56;
+	color: #FFFFFF;
+	border: 1px solid #35404f;
+
+}
+
+#addShoppingList{
+	float:right;
+	display:block;
+	bottom:0px;
+}
+.listHeader{
+	display:block;
+	width:100%;
+	font-size:24px;
+}
+
+.listHeaderTitle{
+	float:left;
+	vertical-align:bottom;
+}
+
+
+#shopping-items{
+	clear:both;
+	float:left;
+	width: 100%;
+}
+
+.shopping-item{
+	display:block;
+	vertical-align: middle;
+    text-align: left;
+	background:#4aaaa5;
+	padding: 5px;
+	float:left;
+	clear:both;
+	width:100%;
+	border-bottom: 1px solid #35404f;
+	min-height:50px;
+}
+
+.shopping-item-checkbox{
+	display:block;
+	float:left;
+	
+}
+
+.shopping-item-product{
+	display:block;
+	width:100%;
+	float:left;
+}
+
+.shopping-item-quantity{
+	display:block;
+	width:100%;
+	float:left;
+	margin-top:3px;
+}
+
+.shopping-item-details{
+	float:left;
+	padding-left: 5px;
+	padding-top: 3px;
+}
