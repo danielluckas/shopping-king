@@ -140,6 +140,7 @@ a {
 #add-cart-icon{
 	float:right;
 	color: #35404f;
+	margin-right: 5px;
 }
 
 .listHeader{
@@ -165,17 +166,19 @@ a {
 	vertical-align: middle;
     text-align: left;
 	background:#4aaaa5;
-	padding: 5px;
 	float:left;
 	clear:both;
 	width:100%;
 	border-bottom: 1px solid #35404f;
 	min-height:50px;
+	overflow: hidden;
 }
 
 .shopping-item-checkbox{
 	display:block;
 	float:left;
+	color:#FFFFFF;
+	width:30px;
 	
 }
 
@@ -193,11 +196,60 @@ a {
 }
 
 .shopping-item-details{
-	float:left;
 	padding-left: 5px;
 	padding-top: 3px;
+	margin-left: 30px;
+	margin-right: 35px;
 }
 
 .shopping-cart-icon{
 	color:#FFFFFF;
+}
+
+#edit-shopping-list{
+	float:right;
+	margin-right: 5px;
+	font-size: 32px;
+}
+
+.edit-shopping-item-details{
+	float:right;
+	width:30px;
+	color:#FFFFFF;
+	margin-right:5px;
+}
+
+.footer-menu{
+	width:100%;
+	display:block;
+	float:left;
+	clear:both;
+	background-color:#35404f;
+	color: #FFFFFF;
+	position:fixed;
+	bottom: 0px;
+	height:50px;
+	overflow:hidden;
+}
+
+#shopping-list-share{
+	float:left;
+	height:50px;
+	line-height: 50px;
+	margin-left:5px;
+}
+
+#shopping-list-share-icon{
+	line-height: 50px;
+}
+
+#shopping-list-archive{
+	float:right;
+	height:50px;
+	line-height: 50px;
+	margin-right:5px;
+}
+
+#shopping-list-archive-icon{
+	line-height: 50px;
 }

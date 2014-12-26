@@ -26,31 +26,45 @@
 <div id="contentArea">
   <div class="listHeader">
   	<div class="listHeaderTitle">[Name Einkaufsliste]</div>
+    <i class="fa fa-pencil " id="edit-shopping-list"></i>
   </div>
   <div id="shopping-items">
   	<div class="shopping-item">
-    	<img class="shopping-item-checkbox" src="img/checkbox_blank.png" width="25" height="25" alt=""/>
+        <i class="fa fa-square-o fa-2x shopping-item-checkbox"></i>
+        <i class="fa fa-pencil fa-2x edit-shopping-item-details" ></i>
+
+        <div class="shopping-item-details">
+        	<span class="shopping-item-product">[Name Produkt mit einem sehr sehr sehr langen Namen, damit der Container umbricht]</span>
+        	<span class="shopping-item-quantity">[Menge mit einem sehr sehr langen Namen, damit der Container umbricht]</span>
+        </div>
+    </div>
+    <div class="shopping-item">
+        <i class="fa fa-check-square-o fa-2x shopping-item-checkbox"></i>
+        <i class="fa fa-pencil fa-2x edit-shopping-item-details" ></i>
+
         <div class="shopping-item-details">
         	<span class="shopping-item-product">[Name Produkt]</span>
         	<span class="shopping-item-quantity">[Menge]</span>
         </div>
     </div>
     <div class="shopping-item">
-        <img class="shopping-item-checkbox" src="img/checkbox_checked.png" width="25" height="25" alt=""/>
-        <div class="shopping-item-details">
-        	<span class="shopping-item-product">[Name Produkt]</span>
-        	<span class="shopping-item-quantity">[Menge]</span>
-        </div>
-    </div>
-    <div class="shopping-item">
-    	<img class="shopping-item-checkbox" src="img/checkbox_blank.png" width="25" height="25" alt=""/>
-        <div class="shopping-item-details">
+		<i class="fa fa-square-o fa-2x shopping-item-checkbox"></i>
+        <i class="fa fa-pencil fa-2x edit-shopping-item-details" ></i>
+
+	    <div class="shopping-item-details">
         	<span class="shopping-item-product">[Name Produkt]</span>
         	<span class="shopping-item-quantity">[Menge]</span>
         </div>
     </div>
   </div>
-  
+  <div class="footer-menu">
+  	<div id="shopping-list-share">
+    	<i class="fa fa-users fa-2x" id="shopping-list-share-icon"></i> &nbsp; 3
+    </div>
+    <div id="shopping-list-archive">
+    	<i class="fa  fa-archive fa-2x" id="shopping-list-archive-icon"></i>
+    </div>
+  </div>
   
 </div>
 
