@@ -49,11 +49,14 @@
     </div>
     <div class="shopping-item">
 		<i class="fa fa-square-o fa-2x shopping-item-checkbox"></i>
-        <i class="fa fa-pencil fa-2x edit-shopping-item-details" ></i>
 
 	    <div class="shopping-item-details">
-        	<span class="shopping-item-product">[Name Produkt]</span>
-        	<span class="shopping-item-quantity">[Menge]</span>
+        	<form class="shopping-item-edit-form">
+            	<input type="text" id="shopping-item-edit-name" name="shopping-item-edit-name"  placeholder="Bitte Name eingeben...">
+                <input type="text" id="shopping-item-edit-quantity" name="shopping-item-edit-quantity"  placeholder="Bitte Menge eingeben...">
+				<i class="fa fa-check fa-2x " id="shopping-item-edit-ok"></i>
+                <i class="fa fa-close fa-2x " id="shopping-item-edit-cancel"></i>
+            </form>
         </div>
     </div>
   </div>

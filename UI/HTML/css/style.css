@@ -179,6 +179,8 @@ a {
 	float:left;
 	color:#FFFFFF;
 	width:30px;
+	margin-left:5px;
+	margin-right:5px;
 	
 }
 
@@ -198,7 +200,7 @@ a {
 .shopping-item-details{
 	padding-left: 5px;
 	padding-top: 3px;
-	margin-left: 30px;
+	margin-left: 35px;
 	margin-right: 35px;
 }
 
@@ -252,4 +254,18 @@ a {
 
 #shopping-list-archive-icon{
 	line-height: 50px;
+}
+.shopping-item-edit-form {
+	display:block;
+	width: 100%;
+}
+.shopping-item-edit-form > input{
+	display:block;
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 5px;	
+}
+
+#shopping-item-edit-cancel, #shopping-item-edit-ok {
+	float:right;
 }
