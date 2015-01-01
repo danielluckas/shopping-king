@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/style_mobile.css" media="screen and (max-width: 700px)">
 <link rel="stylesheet" type="text/css" href="css/style_tablet.css" media="screen and (min-width: 700px)">
@@ -14,11 +14,31 @@
 
 <div id="header-bar">
 	<div id="left-menu">
-        <a href="index.html" class="header-menu-link">
+        <div class="header-menu-link">
         	<img src="img/logo.gif" width="48" height="48" alt=""/>
-        </a>
+        </div>
+        <div id="main-menu">
+        	<ul id="main-menu-items">
+            	<li class="main-menu-item">
+                	<a href="index.html" class="main-menu-item-link">
+                    <i class="fa fa-home"></i>Startseite
+                    </a>
+                </li>
+            	<li class="main-menu-item">
+                	<a href="index.html" class="main-menu-item-link">
+                    <i class="fa fa-list"></i>Meine Einkaufslisten
+                    </a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="archiv.html" class="main-menu-item-link">
+                    	<i class="fa fa-archive"></i>Archiv
+                    </a>
+                </li>
+            </ul>
+        </div>
+
     </div>
-	<div id="user-menu">
+	<div id="user-menu" class="clickable">
     	
    	  	<svg height="50" width="50" id="user-icon">
 		  	<circle cx="25" cy="25" r="23" stroke="none" fill="#4aaaa5" />
@@ -31,9 +51,9 @@
         
         <div id="user-menu-box">
         	<ul id="user-menu-box-list">
-            	<li class="user-menu-box-listitem"><i class="fa fa-gear"></i>Administration</li>
-                <li class="user-menu-box-listitem"><i class="fa fa-user"></i>Benutzerprofil</li>
-                <li class="user-menu-box-listitem"><i class="fa fa-sign-out"></i>Abmelden</li>
+            	<li class="user-menu-box-listitem"><a href="admin.html" class="clickable"><i class="fa fa-gear"></i>Administration</a></li>
+                <li class="user-menu-box-listitem"><a href="profile.html" class="clickable"><i class="fa fa-user"></i>Benutzerprofil</a></li>
+                <li class="user-menu-box-listitem"><a href="login.html" class="clickable"><i class="fa fa-sign-out"></i>Abmelden</a></li>
             </ul>
         </div>
         
@@ -44,12 +64,12 @@
 
   <div class="list-header">
   	<div class="list-header-title">[Name Einkaufsliste]</div>
-    <i class="fa fa-pencil " id="edit-shopping-list"></i>
+    <i class="fa fa-pencil clickable" id="edit-shopping-list"></i>
   </div>
   <div id="shopping-items">
   	<div class="shopping-item">
-        <i class="fa fa-square-o fa-2x shopping-item-checkbox"></i>
-        <i class="fa fa-pencil fa-2x edit-shopping-item-details" ></i>
+        <i class="fa fa-square-o fa-2x shopping-item-checkbox clickable"></i>
+        <i class="fa fa-pencil fa-2x edit-shopping-item-details clickable" ></i>
 
         <div class="shopping-item-details">
         	<span class="shopping-item-product">[Name Produkt mit einem sehr sehr sehr langen Namen, damit der Container umbricht]</span>
@@ -57,8 +77,8 @@
         </div>
     </div>
     <div class="shopping-item">
-        <i class="fa fa-check-square-o fa-2x shopping-item-checkbox"></i>
-        <i class="fa fa-pencil fa-2x edit-shopping-item-details" ></i>
+        <i class="fa fa-check-square-o fa-2x shopping-item-checkbox clickable"></i>
+        <i class="fa fa-pencil fa-2x edit-shopping-item-details clickable" ></i>
 
         <div class="shopping-item-details">
         	<span class="shopping-item-product">[Name Produkt]</span>
@@ -66,18 +86,18 @@
         </div>
     </div>
     <div class="shopping-item shopping-item-active">
-		<i class="fa fa-square-o fa-2x shopping-item-checkbox"></i>
+		<i class="fa fa-square-o fa-2x shopping-item-checkbox clickable"></i>
 
 	    <div class="shopping-item-details">
         	<form class="shopping-item-edit-form">
             	<input type="text" id="shopping-item-edit-name" name="shopping-item-edit-name"  placeholder="Bitte Name eingeben...">
                 <input type="text" id="shopping-item-edit-quantity" name="shopping-item-edit-quantity" placeholder="Bitte Menge eingeben...">	
-				<i class="fa fa-check fa-2x " id="shopping-item-edit-ok"></i>
-                <i class="fa fa-close fa-2x " id="shopping-item-edit-cancel"></i>
+				<i class="fa fa-check fa-2x clickable" id="shopping-item-edit-ok"></i>
+                <i class="fa fa-close fa-2x clickable" id="shopping-item-edit-cancel"></i>
             </form>
         </div>
     </div>
-    <div class="shopping-item add-shopping-item">
+    <div class="shopping-item add-shopping-item clickable">
   		<i class="fa fa-plus-circle fa-2x add-shopping-item-icon"></i> 
   	</div>
   </div>
@@ -86,10 +106,13 @@
 </div>
 <div class="footer-menu">
   	<div id="shopping-list-share">
-    	<a href="share.html"> <i class="fa fa-users fa-2x" id="shopping-list-share-icon"></i> &nbsp; 3</a>
+    	<a href="share.html" class="clickable"> 
+        	<i class="fa fa-users fa-2x" id="shopping-list-share-icon"></i> &nbsp; 3
+        </a>
     </div>
     <div id="shopping-list-archive">
-    	<i class="fa  fa-archive fa-2x" id="shopping-list-archive-icon"></i>
+    	<i class="fa  fa-archive fa-2x clickable" id="shopping-list-archive-icon"></i>
+        <i class="fa  fa-close fa-2x clickable" id="shopping-list-archive-icon"></i>
     </div>
   </div>
 

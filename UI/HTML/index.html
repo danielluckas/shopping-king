@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/style_mobile.css" media="screen and (max-width: 700px)">
 <link rel="stylesheet" type="text/css" href="css/style_tablet.css" media="screen and (min-width: 700px)">
@@ -13,17 +13,31 @@
 
 <div id="header-bar">
 	<div id="left-menu">
-        <a href="index.html" class="header-menu-link">
+        <div class="header-menu-link">
         	<img src="img/logo.gif" width="48" height="48" alt=""/>
-        </a>
+        </div>
         <div id="main-menu">
         	<ul id="main-menu-items">
-            	<li class="main-menu-item"><a href="index.html" class="main-menu-item-link">Meine Einkaufslisten</a></li>
+                <li class="main-menu-item">
+                	<a href="index.html" class="main-menu-item-link">
+                    <i class="fa fa-home"></i>Startseite
+                    </a>
+                </li>
+            	<li class="main-menu-item">
+                	<a href="index.html" class="main-menu-item-link">
+                    <i class="fa fa-list"></i>Meine Einkaufslisten
+                    </a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="archiv.html" class="main-menu-item-link">
+                    	<i class="fa fa-archive"></i>Archiv
+                    </a>
+                </li>
             </ul>
         </div>
 
     </div>
-	<div id="user-menu">
+	<div id="user-menu" class="clickable">
     	
    	  	<svg height="50" width="50" id="user-icon">
 		  	<circle cx="25" cy="25" r="23" stroke="none" fill="#4aaaa5" />
@@ -36,9 +50,9 @@
         
         <div id="user-menu-box">
         	<ul id="user-menu-box-list">
-            	<li class="user-menu-box-listitem"><i class="fa fa-gear"></i>Administration</li>
-                <li class="user-menu-box-listitem"><i class="fa fa-user"></i>Benutzerprofil</li>
-                <li class="user-menu-box-listitem"><i class="fa fa-sign-out"></i>Abmelden</li>
+            	<li class="user-menu-box-listitem"><a href="admin.html" class="clickable"><i class="fa fa-gear"></i>Administration</a></li>
+                <li class="user-menu-box-listitem"><a href="profile.html" class="clickable"><i class="fa fa-user"></i>Benutzerprofil</a></li>
+                <li class="user-menu-box-listitem"><a href="login.html" class="clickable"><i class="fa fa-sign-out"></i>Abmelden</a></li>
             </ul>
         </div>
         
@@ -142,44 +156,12 @@
             </div>
             <span class="counter-badge">0&nbsp;/&nbsp;15</span>
           </a>
-          <div id="add-shopping-list" class="shopping-list">
+          <div id="add-shopping-list" class="shopping-list clickable">
             <i class="fa fa-plus-circle fa-lg" id="add-cart-icon"></i>
           </div>
       </div>
   </div>
-  <div class="shopping-list-spacer"></div>
-  <div class="shopping-list-box">
-      <div class="list-header">
-        <div class="list-header-title">Meine archivierten Einkaufslisten</div> 
-      </div>
-      <div id="archivLists">
-      
-        <a class="archived-shopping-list" href="archivedshoppinglist.html">
-            <div class="shopping-list-title">
-                <span class="fa fa-shopping-cart shopping-cart-icon fa-lg" ></span>
-    
-                <span class="shopping-cart-name">[Titel der Einkaufsliste]</span>
-            </div>
-            <span class="counter-badge green-badge">15&nbsp;/&nbsp;15</span>
-          </a>
-          <a class="archived-shopping-list" href="archivedshoppinglist.html">
-            <div class="shopping-list-title">
-                <span class="fa fa-shopping-cart shopping-cart-icon fa-lg" ></span>
-    
-                <span class="shopping-cart-name">[Titel der Einkaufsliste]</span>
-            </div>
-            <span class="counter-badge red-badge">10&nbsp;/&nbsp;15</span>
-          </a>
-          <a class="archived-shopping-list" href="archivedshoppinglist.html">
-            <div class="shopping-list-title">
-                <span class="fa fa-shopping-cart shopping-cart-icon fa-lg" ></span>
-    
-                <span class="shopping-cart-name">[Titel der Einkaufsliste]</span>
-            </div>
-            <span class="counter-badge red-badge">5&nbsp;/&nbsp;15</span>
-          </a>
-      </div>
-   </div>
+  
 </div>
 
 </body>
