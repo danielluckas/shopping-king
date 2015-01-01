@@ -1,11 +1,10 @@
 /* CSS Document */
-
-#userInformation{
+#user-information{
 	display:block;
 }
-	
-	
-.shoppingList , .archivedShoppingList{
+
+
+.shopping-list , .archived-shopping-list{
 	float:left;
 	width:150px;
 	height:150px;
@@ -16,14 +15,14 @@
 	margin-bottom: 15px;
 }
 
-.shoppingListTitle{
+.shopping-list-title{
 	width: 148px;
 	height: 110px;
 	padding: 5px;
 	font-size: 16px;
 }
 
-.shoppingListTitle span.shopping-cart-name {
+.shopping-list-title span.shopping-cart-name {
 	width:120px;
 	float:left;
 	left:-25px;			
@@ -31,29 +30,29 @@
 	height: 110;
 }
 
-.shoppingListTitle span.shopping-cart-icon {
+.shopping-list-title span.shopping-cart-icon {
 	float:inherit;
 	margin-top: 115px;
 }
 
-.counterBadge{
+.counter-badge{
 	font-size: 12px;
 	padding: 3px 5px 3px 5px;
 	margin-right: 10px;
 
 }
 
-.listHeader{
+.list-header{
 	float:left;
 	height: 40px;
 	line-height:40px;
 }
 
-.listHeaderTitle{
+.list-header-title{
 	padding-left: 15px;
 }
 
-#contentArea{
+#content-area{
 	max-width: 700px;
 	margin-left:auto;
 	margin-right:auto;

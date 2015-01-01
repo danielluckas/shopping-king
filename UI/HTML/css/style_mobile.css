@@ -1,6 +1,6 @@
 
 
-.shoppingList , .archivedShoppingList{
+.shopping-list , .archived-shopping-list{
 	position: relative;
 	float:left;
 	clear:both;
@@ -10,29 +10,29 @@
 }
 
 
-.shoppingListTitle span.shopping-cart-icon{
+.shopping-list-title span.shopping-cart-icon{
 	line-height:50px;
 }
 
-.shoppingListTitle span.shopping-cart-name {
+.shopping-list-title span.shopping-cart-name {
 	line-height:50px;
 	margin-left: 5px;
 }
 
 
-.counterBadge{
+.counter-badge{
 	margin-top: 14px;
 	padding: 3px 6px 3px 6px;
 	margin-right: 10px;
 }
 
 
-.listHeader{
+.list-header{
 	height: 50px;
 	line-height: 50px;
 }
 
-.listHeaderTitle{
+.list-header-title{
 	padding-left: 15px;
 }
 
