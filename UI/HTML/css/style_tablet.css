@@ -12,6 +12,9 @@
 	margin: 10px;
 }
 
+#shopping-items{
+	margin-bottom: 15px;
+}
 
 .shoppingListTitle{
 	width: 148px;
@@ -42,9 +45,8 @@
 
 .listHeader{
 	float:left;
-	height: 50px;
-	margin-top:20px;
-	margin-bottom:5px;
+	height: 40px;
+	line-height:40px;
 }
 
 .listHeaderTitle{
@@ -56,4 +58,33 @@
 	margin-left:auto;
 	margin-right:auto;
 	float:none;
+	
+}
+
+#add-shopping-list{
+	float:left;
+	clear:none;
+	width:148px;
+	height:148px;
+	margin: 10px;
+	border: 1px solid #35404f;
+	line-height: 148px;
+	
+}
+#add-cart-icon{
+	line-hight: 148px;
+	height: 148px;
+}
+
+.shopping-item{
+	border-left: 1px solid #4aaaa5;
+	border-right: 1px solid #4aaaa5;
+}
+
+.add-shopping-item{
+	border-left: 1px solid #35404f;
+	border-right: 1px solid #35404f;
+	border-top: 1px solid #35404f;
+	margin-top: -1px;
+	display:block;
 }
