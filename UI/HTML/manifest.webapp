@@ -1,0 +1,11 @@
+{
+  "name": "ShoppingKing",
+  "icons": [{
+        "src": "img/icon.gif",
+        "sizes": "16x16",
+        "type": "image/gif"
+      }],
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "orientation": "landscape"
+}
