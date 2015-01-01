@@ -372,7 +372,7 @@ a {
 	padding-left: 5px;
 	padding-top: 3px;
 	margin-right: 35px;
-	margin-left: 35px;
+	margin-left: 55px;
 }
 
 .user-share-delete-icon{
@@ -387,7 +387,7 @@ a {
 .user-share-user-icon{
 	display:block;
 	float:left;
-	width:30px;
+	width:50px;
 	margin-left:5px;
 	line-height:50px;
 }
