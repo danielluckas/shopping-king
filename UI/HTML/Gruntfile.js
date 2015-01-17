@@ -11,16 +11,10 @@ module.exports = function(grunt) {
           environment: 'production'
         }
       },
-      dev: {                    // Another target
-        options: {
-          sassDir: 'sass',
-          cssDir: 'css'
-        }
-      }
     },
     watch: {
       css: {
-        files: 'sass/*.scss',
+        files: 'sass/*',
         tasks: ['compass']
       }
     }
