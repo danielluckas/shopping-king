@@ -30,7 +30,7 @@
 }
 
 .main-menu-item:hover{
-	background-color: #4aaaa5;
+	background-color: $primary-color-green;
 }
 
 .shopping-list , .archived-shopping-list{
@@ -95,7 +95,7 @@
 	width:148px;
 	height:148px;
 	margin: 10px;
-	border: 1px solid #35404f;
+	border: 1px solid $primary-color-grey;
 	line-height: 148px;
 	
 }
@@ -105,14 +105,14 @@
 }
 
 .shopping-item{
-	border-left: 1px solid #4aaaa5;
-	border-right: 1px solid #4aaaa5;
+	border-left: 1px solid $primary-color-green;
+	border-right: 1px solid $primary-color-green;
 }
 
 .add-shopping-item{
-	border-left: 1px solid #35404f;
-	border-right: 1px solid #35404f;
-	border-top: 1px solid #35404f;
+	border-left: 1px solid $primary-color-grey;
+	border-right: 1px solid $primary-color-grey;
+	border-top: 1px solid $primary-color-grey;
 	margin-top: -1px;
 	display:block;
 }
@@ -120,7 +120,7 @@
 .footer-menu{
 	width:700px;
 	display:block;
-	color: #35404f;
+	color: $primary-color-grey;
 	background-color:#FFFFFF;
 	bottom: 0px;
 	height:50px;
@@ -132,18 +132,18 @@
 }
 
 #shopping-list-share > a{
-	color: #35404f;
+	color: $primary-color-grey;
 }
 
 #shopping-list-share-icon{
-	color: #35404f;
+	color: $primary-color-grey;
 }
 
 #login-container{
 	display:block;
 	width: 400px;
 	height: 400px;
-	background-color: #35404f;
+	background-color: $primary-color-grey;
 	color: #FFFFFF;	
 	position: fixed;
   	top: 50%;
@@ -193,7 +193,7 @@
 	text-align:center;
 	display:block;
 	color: #FFFFFF;
-	background-color:#7accc8;
+	background-color:$secondary-color-green;
 }
 
 #clearButton{
