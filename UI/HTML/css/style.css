@@ -447,13 +447,11 @@ a {
 	line-height:49px;
 }	
 
-#shopping-list-share-ok{
-	float:right;
+#shopping-list-share-back{
+	float:left;
+	margin-left:10px;
 }
 
-#shopping-list-share-cancel{
-	float:left;
-}
 
 #shopping-list-share-actions{
 	clear:both;
