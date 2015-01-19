@@ -51,17 +51,21 @@
 	font-size: 16px;
 }
 
-.shopping-list-title span.shopping-cart-name {
-	width:120px;
-	float:left;
-	left:-25px;			
-	position: relative;
-	height: 110;
+.shopping-list-title { 
+	span.shopping-cart-name {
+		width:120px;
+		float:left;
+		left:-25px;			
+		position: relative;
+		height: 110;
+	}
 }
 
-.shopping-list-title span.shopping-cart-icon {
-	float:inherit;
-	margin-top: 115px;
+.shopping-list-title { 
+	span.shopping-cart-icon {
+		float:inherit;
+		margin-top: 115px;
+	}
 }
 
 .counter-badge{
